@@ -1,5 +1,5 @@
 .gradient-background {
-    background: linear-gradient(300deg,#5aa32f, #d1f1d1, #aaadaa);
+    background: linear-gradient(300deg,#999898, #ffffff, #68e222);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
@@ -17,8 +17,11 @@
   .btn-primary{
     background-color: white;
     color:#7dcf56;
-    border-color: grey;
-
+    border-color: #999898;
+  }
+  .btn-primary:hover {
+    background-color: #68e222; 
+    border-color: #999898;
   }
   .feature-icon{
     width: 4rem;
@@ -26,11 +29,11 @@
     border-radius: .75rem;
     
 }
-.text-bg-primary {
+/* .text-bg-primary {
     color: #fff !important;
     background-color: rgba(red, green, blue, alpha) !important; 
 
-}
+} */
 /* .carousel.pointer-event {
     touch-action: pan-y;
    
