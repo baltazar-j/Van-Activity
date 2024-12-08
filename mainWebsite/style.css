@@ -1,0 +1,37 @@
+.gradient-background {
+    background: linear-gradient(300deg,#5aa32f, #d1f1d1, #aaadaa);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 5%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .btn-primary{
+    background-color: white;
+    color:#7dcf56;
+    border-color: grey;
+
+  }
+  .feature-icon{
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    
+}
+.text-bg-primary {
+    color: #fff !important;
+    background-color: rgba(red, green, blue, alpha) !important; 
+
+}
+/* .carousel.pointer-event {
+    touch-action: pan-y;
+   
+} */
